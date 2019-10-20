@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 53e82bca70c76874686e132b56e06a1b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: braco_inf_dir
+    100004: braco_inf_esq
+    100006: braco_sup_dir
+    100008: brado_sup_esq
+    100010: cabeca
+    100012: cabeca_end
+    100014: chr_sword_braco_dir
+    100016: chr_sword_braco_esq
+    100018: chr_sword_head
+    100020: chr_sword_mao_dir
+    100022: "chr_sword_m\xE3o_esq"
+    100024: chr_sword_ombro_dir
+    100026: chr_sword_ombro_esq
+    100028: chr_sword_pe_dir
+    100030: chr_sword_pe_esq
+    100032: chr_sword_perna_inf_dir
+    100034: chr_sword_perna_inf_esq
+    100036: chr_sword_perna_sup_dir
+    100038: chr_sword_perna_sup_esq
+    100040: chr_sword_torso
+    100042: groin
+    100044: //RootNode
+    100046: mao_dir
+    100048: mao_dir_end
+    100050: mao_esq
+    100052: mao_esq_end
+    100054: pe_dir
+    100056: pe_dir_end
+    100058: pe_esq
+    100060: pe_esq_end
+    100062: perna_inf_dir
+    100064: perna_inf_esq
+    100066: perna_sup_dir
+    100068: perna_sup_esq
+    100070: torso
+    400000: Armature
+    400002: braco_inf_dir
+    400004: braco_inf_esq
+    400006: braco_sup_dir
+    400008: brado_sup_esq
+    400010: cabeca
+    400012: cabeca_end
+    400014: chr_sword_braco_dir
+    400016: chr_sword_braco_esq
+    400018: chr_sword_head
+    400020: chr_sword_mao_dir
+    400022: "chr_sword_m\xE3o_esq"
+    400024: chr_sword_ombro_dir
+    400026: chr_sword_ombro_esq
+    400028: chr_sword_pe_dir
+    400030: chr_sword_pe_esq
+    400032: chr_sword_perna_inf_dir
+    400034: chr_sword_perna_inf_esq
+    400036: chr_sword_perna_sup_dir
+    400038: chr_sword_perna_sup_esq
+    400040: chr_sword_torso
+    400042: groin
+    400044: //RootNode
+    400046: mao_dir
+    400048: mao_dir_end
+    400050: mao_esq
+    400052: mao_esq_end
+    400054: pe_dir
+    400056: pe_dir_end
+    400058: pe_esq
+    400060: pe_esq_end
+    400062: perna_inf_dir
+    400064: perna_inf_esq
+    400066: perna_sup_dir
+    400068: perna_sup_esq
+    400070: torso
+    2100000: palette.002
+    4300000: chr_sword_torso
+    4300002: chr_sword_pe_esq
+    4300004: chr_sword_perna_inf_esq
+    4300006: chr_sword_perna_sup_esq
+    4300008: chr_sword_pe_dir
+    4300010: chr_sword_perna_inf_dir
+    4300012: chr_sword_perna_sup_dir
+    4300014: "chr_sword_m\xE3o_esq"
+    4300016: chr_sword_braco_esq
+    4300018: chr_sword_ombro_esq
+    4300020: chr_sword_mao_dir
+    4300022: chr_sword_braco_dir
+    4300024: chr_sword_ombro_dir
+    4300026: chr_sword_head
+    9500000: //RootNode
+    13700000: chr_sword_braco_dir
+    13700002: chr_sword_braco_esq
+    13700004: chr_sword_head
+    13700006: chr_sword_mao_dir
+    13700008: "chr_sword_m\xE3o_esq"
+    13700010: chr_sword_ombro_dir
+    13700012: chr_sword_ombro_esq
+    13700014: chr_sword_pe_dir
+    13700016: chr_sword_pe_esq
+    13700018: chr_sword_perna_inf_dir
+    13700020: chr_sword_perna_inf_esq
+    13700022: chr_sword_perna_sup_dir
+    13700024: chr_sword_perna_sup_esq
+    13700026: chr_sword_torso
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
