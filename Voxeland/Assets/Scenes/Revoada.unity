@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   passaro: {fileID: 1931910851038962099, guid: 9b4a73905d4d21e4c97caccb9073951d, type: 3}
-  n: 20
+  n: 10
   minDistance: 4
   maxDistance: 20
   instances: []
