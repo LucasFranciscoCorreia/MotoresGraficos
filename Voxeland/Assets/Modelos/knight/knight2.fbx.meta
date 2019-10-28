@@ -1,113 +1,320 @@
 fileFormatVersion: 2
 guid: 53e82bca70c76874686e132b56e06a1b
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: braco_inf_dir
-    100004: braco_inf_esq
-    100006: braco_sup_dir
-    100008: brado_sup_esq
-    100010: cabeca
-    100012: cabeca_end
-    100014: chr_sword_braco_dir
-    100016: chr_sword_braco_esq
-    100018: chr_sword_head
-    100020: chr_sword_mao_dir
-    100022: "chr_sword_m\xE3o_esq"
-    100024: chr_sword_ombro_dir
-    100026: chr_sword_ombro_esq
-    100028: chr_sword_pe_dir
-    100030: chr_sword_pe_esq
-    100032: chr_sword_perna_inf_dir
-    100034: chr_sword_perna_inf_esq
-    100036: chr_sword_perna_sup_dir
-    100038: chr_sword_perna_sup_esq
-    100040: chr_sword_torso
-    100042: groin
-    100044: //RootNode
-    100046: mao_dir
-    100048: mao_dir_end
-    100050: mao_esq
-    100052: mao_esq_end
-    100054: pe_dir
-    100056: pe_dir_end
-    100058: pe_esq
-    100060: pe_esq_end
-    100062: perna_inf_dir
-    100064: perna_inf_esq
-    100066: perna_sup_dir
-    100068: perna_sup_esq
-    100070: torso
-    400000: Armature
-    400002: braco_inf_dir
-    400004: braco_inf_esq
-    400006: braco_sup_dir
-    400008: brado_sup_esq
-    400010: cabeca
-    400012: cabeca_end
-    400014: chr_sword_braco_dir
-    400016: chr_sword_braco_esq
-    400018: chr_sword_head
-    400020: chr_sword_mao_dir
-    400022: "chr_sword_m\xE3o_esq"
-    400024: chr_sword_ombro_dir
-    400026: chr_sword_ombro_esq
-    400028: chr_sword_pe_dir
-    400030: chr_sword_pe_esq
-    400032: chr_sword_perna_inf_dir
-    400034: chr_sword_perna_inf_esq
-    400036: chr_sword_perna_sup_dir
-    400038: chr_sword_perna_sup_esq
-    400040: chr_sword_torso
-    400042: groin
-    400044: //RootNode
-    400046: mao_dir
-    400048: mao_dir_end
-    400050: mao_esq
-    400052: mao_esq_end
-    400054: pe_dir
-    400056: pe_dir_end
-    400058: pe_esq
-    400060: pe_esq_end
-    400062: perna_inf_dir
-    400064: perna_inf_esq
-    400066: perna_sup_dir
-    400068: perna_sup_esq
-    400070: torso
-    2100000: palette.002
-    4300000: chr_sword_torso
-    4300002: chr_sword_pe_esq
-    4300004: chr_sword_perna_inf_esq
-    4300006: chr_sword_perna_sup_esq
-    4300008: chr_sword_pe_dir
-    4300010: chr_sword_perna_inf_dir
-    4300012: chr_sword_perna_sup_dir
-    4300014: "chr_sword_m\xE3o_esq"
-    4300016: chr_sword_braco_esq
-    4300018: chr_sword_ombro_esq
-    4300020: chr_sword_mao_dir
-    4300022: chr_sword_braco_dir
-    4300024: chr_sword_ombro_dir
-    4300026: chr_sword_head
-    9500000: //RootNode
-    13700000: chr_sword_braco_dir
-    13700002: chr_sword_braco_esq
-    13700004: chr_sword_head
-    13700006: chr_sword_mao_dir
-    13700008: "chr_sword_m\xE3o_esq"
-    13700010: chr_sword_ombro_dir
-    13700012: chr_sword_ombro_esq
-    13700014: chr_sword_pe_dir
-    13700016: chr_sword_pe_esq
-    13700018: chr_sword_perna_inf_dir
-    13700020: chr_sword_perna_inf_esq
-    13700022: chr_sword_perna_sup_dir
-    13700024: chr_sword_perna_sup_esq
-    13700026: chr_sword_torso
+  serializedVersion: 28
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: braco_inf_dir
+  - first:
+      1: 100004
+    second: braco_inf_esq
+  - first:
+      1: 100006
+    second: braco_sup_dir
+  - first:
+      1: 100008
+    second: brado_sup_esq
+  - first:
+      1: 100010
+    second: cabeca
+  - first:
+      1: 100012
+    second: cabeca_end
+  - first:
+      1: 100014
+    second: chr_sword_braco_dir
+  - first:
+      1: 100016
+    second: chr_sword_braco_esq
+  - first:
+      1: 100018
+    second: chr_sword_head
+  - first:
+      1: 100020
+    second: chr_sword_mao_dir
+  - first:
+      1: 100022
+    second: "chr_sword_m\xE3o_esq"
+  - first:
+      1: 100024
+    second: chr_sword_ombro_dir
+  - first:
+      1: 100026
+    second: chr_sword_ombro_esq
+  - first:
+      1: 100028
+    second: chr_sword_pe_dir
+  - first:
+      1: 100030
+    second: chr_sword_pe_esq
+  - first:
+      1: 100032
+    second: chr_sword_perna_inf_dir
+  - first:
+      1: 100034
+    second: chr_sword_perna_inf_esq
+  - first:
+      1: 100036
+    second: chr_sword_perna_sup_dir
+  - first:
+      1: 100038
+    second: chr_sword_perna_sup_esq
+  - first:
+      1: 100040
+    second: chr_sword_torso
+  - first:
+      1: 100042
+    second: groin
+  - first:
+      1: 100044
+    second: //RootNode
+  - first:
+      1: 100046
+    second: mao_dir
+  - first:
+      1: 100048
+    second: mao_dir_end
+  - first:
+      1: 100050
+    second: mao_esq
+  - first:
+      1: 100052
+    second: mao_esq_end
+  - first:
+      1: 100054
+    second: pe_dir
+  - first:
+      1: 100056
+    second: pe_dir_end
+  - first:
+      1: 100058
+    second: pe_esq
+  - first:
+      1: 100060
+    second: pe_esq_end
+  - first:
+      1: 100062
+    second: perna_inf_dir
+  - first:
+      1: 100064
+    second: perna_inf_esq
+  - first:
+      1: 100066
+    second: perna_sup_dir
+  - first:
+      1: 100068
+    second: perna_sup_esq
+  - first:
+      1: 100070
+    second: torso
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: braco_inf_dir
+  - first:
+      4: 400004
+    second: braco_inf_esq
+  - first:
+      4: 400006
+    second: braco_sup_dir
+  - first:
+      4: 400008
+    second: brado_sup_esq
+  - first:
+      4: 400010
+    second: cabeca
+  - first:
+      4: 400012
+    second: cabeca_end
+  - first:
+      4: 400014
+    second: chr_sword_braco_dir
+  - first:
+      4: 400016
+    second: chr_sword_braco_esq
+  - first:
+      4: 400018
+    second: chr_sword_head
+  - first:
+      4: 400020
+    second: chr_sword_mao_dir
+  - first:
+      4: 400022
+    second: "chr_sword_m\xE3o_esq"
+  - first:
+      4: 400024
+    second: chr_sword_ombro_dir
+  - first:
+      4: 400026
+    second: chr_sword_ombro_esq
+  - first:
+      4: 400028
+    second: chr_sword_pe_dir
+  - first:
+      4: 400030
+    second: chr_sword_pe_esq
+  - first:
+      4: 400032
+    second: chr_sword_perna_inf_dir
+  - first:
+      4: 400034
+    second: chr_sword_perna_inf_esq
+  - first:
+      4: 400036
+    second: chr_sword_perna_sup_dir
+  - first:
+      4: 400038
+    second: chr_sword_perna_sup_esq
+  - first:
+      4: 400040
+    second: chr_sword_torso
+  - first:
+      4: 400042
+    second: groin
+  - first:
+      4: 400044
+    second: //RootNode
+  - first:
+      4: 400046
+    second: mao_dir
+  - first:
+      4: 400048
+    second: mao_dir_end
+  - first:
+      4: 400050
+    second: mao_esq
+  - first:
+      4: 400052
+    second: mao_esq_end
+  - first:
+      4: 400054
+    second: pe_dir
+  - first:
+      4: 400056
+    second: pe_dir_end
+  - first:
+      4: 400058
+    second: pe_esq
+  - first:
+      4: 400060
+    second: pe_esq_end
+  - first:
+      4: 400062
+    second: perna_inf_dir
+  - first:
+      4: 400064
+    second: perna_inf_esq
+  - first:
+      4: 400066
+    second: perna_sup_dir
+  - first:
+      4: 400068
+    second: perna_sup_esq
+  - first:
+      4: 400070
+    second: torso
+  - first:
+      21: 2100000
+    second: palette.002
+  - first:
+      43: 4300000
+    second: chr_sword_torso
+  - first:
+      43: 4300002
+    second: chr_sword_pe_esq
+  - first:
+      43: 4300004
+    second: chr_sword_perna_inf_esq
+  - first:
+      43: 4300006
+    second: chr_sword_perna_sup_esq
+  - first:
+      43: 4300008
+    second: chr_sword_pe_dir
+  - first:
+      43: 4300010
+    second: chr_sword_perna_inf_dir
+  - first:
+      43: 4300012
+    second: chr_sword_perna_sup_dir
+  - first:
+      43: 4300014
+    second: "chr_sword_m\xE3o_esq"
+  - first:
+      43: 4300016
+    second: chr_sword_braco_esq
+  - first:
+      43: 4300018
+    second: chr_sword_ombro_esq
+  - first:
+      43: 4300020
+    second: chr_sword_mao_dir
+  - first:
+      43: 4300022
+    second: chr_sword_braco_dir
+  - first:
+      43: 4300024
+    second: chr_sword_ombro_dir
+  - first:
+      43: 4300026
+    second: chr_sword_head
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: chr_sword_braco_dir
+  - first:
+      137: 13700002
+    second: chr_sword_braco_esq
+  - first:
+      137: 13700004
+    second: chr_sword_head
+  - first:
+      137: 13700006
+    second: chr_sword_mao_dir
+  - first:
+      137: 13700008
+    second: "chr_sword_m\xE3o_esq"
+  - first:
+      137: 13700010
+    second: chr_sword_ombro_dir
+  - first:
+      137: 13700012
+    second: chr_sword_ombro_esq
+  - first:
+      137: 13700014
+    second: chr_sword_pe_dir
+  - first:
+      137: 13700016
+    second: chr_sword_pe_esq
+  - first:
+      137: 13700018
+    second: chr_sword_perna_inf_dir
+  - first:
+      137: 13700020
+    second: chr_sword_perna_inf_esq
+  - first:
+      137: 13700022
+    second: chr_sword_perna_sup_dir
+  - first:
+      137: 13700024
+    second: chr_sword_perna_sup_esq
+  - first:
+      137: 13700026
+    second: chr_sword_torso
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -125,7 +332,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -140,6 +347,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -147,18 +355,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -167,12 +376,312 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
-    human: []
-    skeleton: []
+    serializedVersion: 3
+    human:
+    - boneName: groin
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: perna_sup_esq
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: perna_sup_dir
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: perna_inf_esq
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: perna_inf_dir
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pe_esq
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pe_dir
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: brado_sup_esq
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: braco_sup_dir
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: braco_inf_esq
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: braco_inf_dir
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mao_esq
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mao_dir
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: cabeca_end
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: knight2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: knight2(Clone)
+      position: {x: -0, y: 0.3, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: groin
+      parentName: Armature
+      position: {x: 0, y: 7.4505804e-11, z: -0.0008008619}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso
+      parentName: groin
+      position: {x: -0, y: 0.002112461, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cabeca
+      parentName: torso
+      position: {x: -0, y: 0.0029727432, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cabeca_end
+      parentName: cabeca
+      position: {x: -0, y: 0.0069840425, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: braco_sup_dir
+      parentName: torso
+      position: {x: 0.0025020896, y: 0.0014650652, z: -1.3749575e-10}
+      rotation: {x: -0.49757993, y: -0.5024083, z: -0.4975878, w: 0.50240064}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: braco_inf_dir
+      parentName: braco_sup_dir
+      position: {x: -1.9184653e-15, y: 0.0015201316, z: 1.8160794e-10}
+      rotation: {x: -0.0015281596, y: 0.00000007322382, z: -3.006433e-10, w: 0.99999887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mao_dir
+      parentName: braco_inf_dir
+      position: {x: -2.131628e-15, y: 0.0009900507, z: -4.237441e-10}
+      rotation: {x: -0.00000015087215, y: -0.0000002696179, z: 1.005307e-13, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: mao_dir_end
+      parentName: mao_dir
+      position: {x: -0, y: 0.0009900503, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brado_sup_esq
+      parentName: torso
+      position: {x: -0.0024634642, y: 0.0015387186, z: -2.5909616e-10}
+      rotation: {x: 0.5043754, y: -0.4955858, z: 0.5043679, w: 0.49559385}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: braco_inf_esq
+      parentName: brado_sup_esq
+      position: {x: -1.1652901e-14, y: 0.0015159752, z: 2.654381e-10}
+      rotation: {x: -0.0015464476, y: -0.0000000792853, z: -8.974141e-10, w: 0.9999988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mao_esq
+      parentName: braco_inf_esq
+      position: {x: -4.8316907e-15, y: 0.000990051, z: 6.055021e-11}
+      rotation: {x: 0.00000015040835, y: 0.00000003073365, z: -6.17284e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mao_esq_end
+      parentName: mao_esq
+      position: {x: -0, y: 0.0009900506, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: perna_sup_dir
+      parentName: groin
+      position: {x: 0.0015012183, y: 0.00011227026, z: -0.000055559456}
+      rotation: {x: 1, y: 2.3415601e-15, z: 0.00000004371139, w: -0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: perna_inf_dir
+      parentName: perna_sup_dir
+      position: {x: -4.8571763e-12, y: 0.0010227893, z: -4.944489e-14}
+      rotation: {x: -0.00000007056927, y: -0.00000004371139, z: 3.0846816e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pe_dir
+      parentName: perna_inf_dir
+      position: {x: -0, y: 0.0010227893, z: 1.8758328e-12}
+      rotation: {x: -0.00000006453327, y: -0, z: 4.2351647e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pe_dir_end
+      parentName: pe_dir
+      position: {x: -0, y: 0.0009636198, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: perna_sup_esq
+      parentName: groin
+      position: {x: -0.0015, y: 0.000112461, z: 0}
+      rotation: {x: 1, y: -1.0197005e-15, z: 0.00000004371139, w: -0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: perna_inf_esq
+      parentName: perna_sup_esq
+      position: {x: -9.992007e-18, y: 0.0010227893, z: -8.881784e-18}
+      rotation: {x: -0.000000049412968, y: -0.00000004371139, z: 2.159909e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pe_esq
+      parentName: perna_inf_esq
+      position: {x: -0, y: 0.0010227895, z: -1.7763568e-17}
+      rotation: {x: 0.00000003351971, y: -0, z: -4.2351647e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pe_esq_end
+      parentName: pe_esq
+      position: {x: -0, y: 0.0009636196, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chr_sword_torso
+      parentName: knight2(Clone)
+      position: {x: 0.0011993647, y: 0.62140715, z: 0.0019370317}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_pe_esq
+      parentName: knight2(Clone)
+      position: {x: -0.14880048, y: 0.05802557, z: 0.004753232}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_perna_inf_esq
+      parentName: knight2(Clone)
+      position: {x: -0.14880048, y: 0.15802512, z: 0.004753232}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_perna_sup_esq
+      parentName: knight2(Clone)
+      position: {x: -0.14880048, y: 0.25802544, z: 0.004753232}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_pe_dir
+      parentName: knight2(Clone)
+      position: {x: 0.15119922, y: 0.05802557, z: 0.004753232}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_perna_inf_dir
+      parentName: knight2(Clone)
+      position: {x: 0.15119922, y: 0.158025, z: 0.004753232}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_perna_sup_dir
+      parentName: knight2(Clone)
+      position: {x: 0.15119922, y: 0.25802556, z: 0.004753232}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: "chr_sword_m\xE3o_esq"
+      parentName: knight2(Clone)
+      position: {x: -0.552467, y: 0.65869224, z: 0.004753248}
+      rotation: {x: 0.00000001545431, y: -0.00000001545431, z: -0.7071067, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_braco_esq
+      parentName: knight2(Clone)
+      position: {x: -0.4524665, y: 0.65869206, z: 0.0047533535}
+      rotation: {x: 0.00000001545431, y: -0.00000001545431, z: -0.7071067, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_ombro_esq
+      parentName: knight2(Clone)
+      position: {x: -0.30246726, y: 0.65869224, z: 0.0047533335}
+      rotation: {x: 0.00000001545431, y: -0.00000001545431, z: -0.7071067, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_mao_dir
+      parentName: knight2(Clone)
+      position: {x: 0.5478657, y: 0.65869224, z: 0.004753248}
+      rotation: {x: 0.00000001545431, y: 0.00000001545431, z: 0.7071067, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_braco_dir
+      parentName: knight2(Clone)
+      position: {x: 0.44786513, y: 0.65869224, z: 0.0047533535}
+      rotation: {x: 0.00000001545431, y: 0.00000001545431, z: 0.7071067, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_ombro_dir
+      parentName: knight2(Clone)
+      position: {x: 0.297866, y: 0.6586923, z: 0.0047533335}
+      rotation: {x: 0.00000001545431, y: 0.00000001545431, z: 0.7071067, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: chr_sword_head
+      parentName: knight2(Clone)
+      position: {x: -0.006854415, y: 1.1221201, z: -0.047930837}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -180,13 +689,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
