@@ -1,23 +1,19 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.UI;
-public class NPC : MonoBehaviour
-{
-    public Dialogue dialog;
-    public Transform chat;
-    public void TriggerDialog()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialog);
-    }
+using UnityEngine;
 
+public class ItemPickup : MonoBehaviour
+{
+    public float radius = 3f;
+    public GameObject chat;
+    public Item item;
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             chat.gameObject.SetActive(true);
-            chat.GetComponentInChildren<Text>().text = "[F] to Chat";
+            chat.GetComponentInChildren<Text>().text = "[F] to Pick up";
             StartCoroutine(AwaitChat());
         }
     }
@@ -28,16 +24,23 @@ public class NPC : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.F))
             {
-                TriggerDialog();
                 chat.gameObject.SetActive(false);
+                Inventory.instance.Add(item);
+                Destroy(this.gameObject);
             }
             yield return null;
         }
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
+
     public void OnTriggerExit(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             chat.gameObject.SetActive(false);
             StopAllCoroutines();
