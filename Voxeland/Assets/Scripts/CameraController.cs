@@ -19,7 +19,7 @@ public class CameraController : MonoBehaviour
     float sensivityY = 1f;
 
     CharacterScript character;
-
+    PauseMenu menu;
 
 
     public void Start()
@@ -27,16 +27,19 @@ public class CameraController : MonoBehaviour
         camTransform = transform;
         camera = Camera.main;
         character = FindObjectOfType<CharacterScript>();
+        menu = FindObjectOfType<PauseMenu>();
     }
 
     private void Update()
     {
-        if (!character.isTalking)
-        {
-            currentX += Input.GetAxis("Mouse Y");
-            currentY += Input.GetAxis("Mouse X");
-            currentX = Mathf.Clamp(currentX, Y_ANGLE_MIN, Y_ANGLE_MAX);
-        }
+        if (character.isTalking)
+            return;
+        if (menu.isPaused)
+            return;
+
+        currentX += Input.GetAxis("Mouse Y");
+        currentY += Input.GetAxis("Mouse X");
+        currentX = Mathf.Clamp(currentX, Y_ANGLE_MIN, Y_ANGLE_MAX);
     }
 
     private void LateUpdate()

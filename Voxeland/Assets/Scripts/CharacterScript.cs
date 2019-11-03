@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
+using UnityEngine.EventSystems;
 public class CharacterScript : MonoBehaviour
 {
     public float velocity;
@@ -16,6 +18,8 @@ public class CharacterScript : MonoBehaviour
     public bool isJumping;
     public bool isTalking;
 
+    PauseMenu pause;
+
     Rigidbody body;
 
 
@@ -26,38 +30,42 @@ public class CharacterScript : MonoBehaviour
         cam = Camera.main.transform;
         body = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
+        pause = FindObjectOfType<PauseMenu>();
         isJumping = false;
         isTalking = false;
     }
 
     private void Update()
     {
-        if (!isTalking)
+
+        if (isTalking)
+            return;
+        if (pause.isPaused)
+            return;
+
+        if (Input.GetKey(KeyCode.Space) && !isJumping)
         {
-            if (Input.GetKey(KeyCode.Space) && !isJumping)
-            {
-                anim.SetBool("IsJumping", true);
-                anim.SetTrigger("Jump");
-                isJumping = true;
-            }
-
-            float xMove = Input.GetAxisRaw("Horizontal");
-            float yMove = Input.GetAxisRaw("Vertical");
-
-            angle = Mathf.Rad2Deg * Mathf.Atan2(xMove, yMove);
-            angle += cam.eulerAngles.y;
-
-            if (Mathf.Abs(xMove) < 1 && Mathf.Abs(yMove) < 1)
-            {
-                anim.SetBool("isWalking", false);
-                return;
-            };
-
-            targetRotation = Quaternion.Euler(0, angle, 0);
-
-            body.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
-            body.MovePosition(transform.position + transform.forward * Time.deltaTime * velocity);
-            anim.SetBool("isWalking", true);
+            anim.SetBool("IsJumping", true);
+            anim.SetTrigger("Jump");
+            isJumping = true;
         }
+
+        float xMove = Input.GetAxisRaw("Horizontal");
+        float yMove = Input.GetAxisRaw("Vertical");
+
+        angle = Mathf.Rad2Deg * Mathf.Atan2(xMove, yMove);
+        angle += cam.eulerAngles.y;
+
+        if (Mathf.Abs(xMove) < 1 && Mathf.Abs(yMove) < 1)
+        {
+            anim.SetBool("isWalking", false);
+            return;
+        };
+
+        targetRotation = Quaternion.Euler(0, angle, 0);
+
+        body.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
+        body.MovePosition(transform.position + transform.forward * Time.deltaTime * velocity);
+        anim.SetBool("isWalking", true);
     }
 }

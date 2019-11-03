@@ -11,10 +11,9 @@ public class InventoryUISlot : MonoBehaviour
 
     public void AddItem(Item item)
     {
-        this.item = item;
-
-        icon.sprite = item.icon;
-        icon.enabled = true;
+            this.item = item;
+            icon.sprite = item.icon;
+            icon.enabled = true;
     }
 
     public void ClearSlot()
@@ -22,5 +21,13 @@ public class InventoryUISlot : MonoBehaviour
         item = null;
         icon.sprite = null;
         icon.enabled = false;
+    }
+
+    public void UseItem()
+    {
+        if(item != null)
+        {
+            item.Use();
+        }
     }
 }
