@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class NPC : MonoBehaviour
 {
     public Dialogue dialog;
     public Transform chat;
+
+    public Quest giveQuest;
+
     public void TriggerDialog()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialog);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialog, giveQuest);
     }
 
 

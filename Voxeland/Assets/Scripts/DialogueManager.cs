@@ -10,21 +10,25 @@ public class DialogueManager : MonoBehaviour
     public Text message;
     public GameObject chat;
     public Animator anim;
+    public Quest quest;
 
-    private Queue<string> sentences;
+    public Queue<string> sentences;
     private CursorScript cursor;
     private CharacterScript character;
+    
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         sentences = new Queue<string>();
         cursor = FindObjectOfType<CursorScript>();
         character = FindObjectOfType<CharacterScript>();
     }
 
-    public void StartDialogue(Dialogue dialog)
+    public void StartDialogue(Dialogue dialog, Quest quest)
     {
+        if (quest != null)
+            Debug.Log("Preparing a quest");
         character.isTalking = true;
         cursor.ShowCursor();
         anim.SetBool("isOpen", true);
@@ -34,7 +38,7 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-
+        this.quest = quest;
         DisplayNextSentence();
     }
 
@@ -46,6 +50,7 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
+        Debug.Log("Awaiting dialog end");
         string text = sentences.Dequeue();
         StartCoroutine(TypeSentences(text));
     }
@@ -66,5 +71,12 @@ public class DialogueManager : MonoBehaviour
         chat.SetActive(true);
         cursor.HideCursor();
         character.isTalking = false;
+        Debug.Log("Finishing quest delivery");
+        if (quest != null)
+        {
+            Debug.Log("Delivering quest");
+            FindObjectOfType<QuestManager>().AddQuest(quest);
+            //quest = null;
+        }
     }
 }
