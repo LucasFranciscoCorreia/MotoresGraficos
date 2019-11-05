@@ -11,24 +11,22 @@ public class EquipmentManager : MonoBehaviour
 
     public static EquipmentManager instance;
 
-    private void Awake()
-    {
-        instance = this;
-    }
-
-    #endregion
 
     public Equipment[] equipments;
     Inventory inventory;
     EquipmentUI equipmentUI;
 
-    private void Start()
+    private void Awake()
     {
+        instance = this;
         inventory = Inventory.instance;
         int n = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         equipments = new Equipment[n];
         equipmentUI = FindObjectOfType<EquipmentUI>();
     }
+
+    #endregion
+    
 
     public void Equip(Equipment equip)
     {
