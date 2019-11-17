@@ -11,16 +11,19 @@ public class InventoryUISlot : MonoBehaviour
     DescriptionManager description;
     public Vector3 offset;
 
+    AnimationController animator;
+
     private void Start()
     {
         description = FindObjectOfType<DescriptionManager>();
+        animator = FindObjectOfType<AnimationController>();
     }
 
     public void AddItem(Item item)
     {
-            this.item = item;
-            icon.sprite = item.icon;
-            icon.enabled = true;
+        this.item = item;
+        icon.sprite = item.icon;
+        icon.enabled = true;
     }
 
     public void ClearSlot()
@@ -32,9 +35,10 @@ public class InventoryUISlot : MonoBehaviour
 
     public void UseItem()
     {
-        if(item != null)
+        if (item != null)
         {
             item.Use();
+            
         }
     }
 

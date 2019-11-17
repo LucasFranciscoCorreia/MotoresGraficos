@@ -6,11 +6,18 @@ public class RightHand : MonoBehaviour
 {
     public GameObject weapon;
     public bool inUse;
+    AnimationController animator;
+
+    private void Start()
+    {
+        animator = FindObjectOfType<AnimationController>();
+    }
 
     public void Equip(Equipment equip)
     {
         this.inUse = true;
-        weapon = Instantiate(equip.model, this.transform);
+        weapon = Instantiate(equip.model, transform);
+        animator.SetWeapon(weapon.GetComponent<WeaponScript>());
     }
 
     public void Unequip()

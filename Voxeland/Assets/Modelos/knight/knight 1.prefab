@@ -47,14 +47,12 @@ MonoBehaviour:
   angle: 0
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   cam: {fileID: 0}
-  anim: {fileID: 0}
+  anim: {fileID: 1261519902}
   isJumping: 0
   isTalking: 0
   isAttacking: 0
   damageTime: 2
   time2Damage: 1
-  maxHp: 50
-  hp: 0
 --- !u!95 &1261519902
 Animator:
   serializedVersion: 3
@@ -86,20 +84,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3580bfefc3403a4c842c5106aa083c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1817433460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988771066857601965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b55100ab1eda92439fdcde2575d8054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
-  inUse: 0
 --- !u!1001 &7988771066857569661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107,18 +91,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 100044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
-      propertyPath: m_Name
-      value: knight
-      objectReference: {fileID: 0}
-    - target: {fileID: 100044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 2c1ba18e62ef4504ca91cddd17019c77, type: 2}
     - target: {fileID: 400044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.7
@@ -163,9 +135,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400042, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
+    - target: {fileID: 400044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
+      propertyPath: m_Name
+      value: knight 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400042, guid: 53e82bca70c76874686e132b56e06a1b, type: 3}
       propertyPath: m_LocalRotation.z
@@ -247,12 +235,6 @@ GameObject:
 --- !u!1 &7988771066857602013 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 53e82bca70c76874686e132b56e06a1b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7988771066857569661}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7988771066857601965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100048, guid: 53e82bca70c76874686e132b56e06a1b,
     type: 3}
   m_PrefabInstance: {fileID: 7988771066857569661}
   m_PrefabAsset: {fileID: 0}

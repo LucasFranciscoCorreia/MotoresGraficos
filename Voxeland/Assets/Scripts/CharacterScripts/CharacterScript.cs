@@ -20,8 +20,8 @@ public class CharacterScript : MonoBehaviour
     public float damageTime;
     public float time2Damage;
 
-    public int maxHp;
-    public int hp;
+
+    StatsScript stats;
 
     HPBar hpBar;
 
@@ -32,14 +32,13 @@ public class CharacterScript : MonoBehaviour
 
     public void Start()
     {
+        stats = GetComponent<StatsScript>();
         velocity = 10;
         turnSpeed = 10;
         cam = Camera.main.transform;
         body = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
         pause = FindObjectOfType<PauseMenu>();
-        hpBar = FindObjectOfType<HPBar>();
-        hp = maxHp;
         isJumping = false;
         isTalking = false;
     }
@@ -86,11 +85,4 @@ public class CharacterScript : MonoBehaviour
         body.MovePosition(transform.position + transform.forward * Time.deltaTime * velocity);
         anim.SetBool("isWalking", true);
     }
-
-    void ReceiveDamage(int ammount)
-    {
-        this.hp -= ammount;
-        hpBar.UpdateValues(hp, maxHp);
-    }
-
 }

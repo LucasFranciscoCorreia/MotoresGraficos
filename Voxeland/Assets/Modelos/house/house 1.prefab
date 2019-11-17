@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 301660939391563462}
   - component: {fileID: 802770832450339373}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &301660939391563462
 Transform:
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 1770922338904738171}
   - component: {fileID: 1770922338904738168}
   - component: {fileID: 1770922338904738169}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 1770922338912783471}
   - component: {fileID: 1770922338912783468}
   - component: {fileID: 1770922338912783469}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 1770922338942078285}
   - component: {fileID: 1770922338942078282}
   - component: {fileID: 1770922338942078283}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 1770922339068791149}
   - component: {fileID: 1770922339068791146}
   - component: {fileID: 1770922339068791147}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 1770922339300007271}
   - component: {fileID: 1770922339300007268}
   - component: {fileID: 1770922339300007269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 1770922339378934692}
   - component: {fileID: 1770922339378934693}
   - component: {fileID: 1770922339378934690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 1770922339424274309}
   - component: {fileID: 1770922339424274306}
   - component: {fileID: 1770922339424274307}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 1770922339721345700}
   - component: {fileID: 1770922339721345701}
   - component: {fileID: 1770922339721345698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 1770922339760439947}
   - component: {fileID: 1770922339760439944}
   - component: {fileID: 1770922339760439945}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 1770922339766646839}
   - component: {fileID: 1770922339766646836}
   - component: {fileID: 1770922339766646837}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1218,7 +1218,7 @@ GameObject:
   - component: {fileID: 1770922339961858625}
   - component: {fileID: 1770922339961858686}
   - component: {fileID: 1770922339961858687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1316,7 +1316,7 @@ GameObject:
   - component: {fileID: 1770922339986655481}
   - component: {fileID: 1770922339986655478}
   - component: {fileID: 1770922339986655479}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1505,7 +1505,7 @@ GameObject:
   - component: {fileID: 1770922340041448944}
   - component: {fileID: 1770922340041448945}
   - component: {fileID: 1770922340041448942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1693,7 +1693,7 @@ GameObject:
   - component: {fileID: 1770922340295901671}
   - component: {fileID: 1770922340295901668}
   - component: {fileID: 1770922340295901669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1787,7 +1787,7 @@ GameObject:
   - component: {fileID: 1770922340560694271}
   - component: {fileID: 1770922340560694268}
   - component: {fileID: 1770922340560694269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1881,7 +1881,7 @@ GameObject:
   - component: {fileID: 1770922340603993256}
   - component: {fileID: 1770922340603993257}
   - component: {fileID: 1770922340603993254}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1979,7 +1979,7 @@ GameObject:
   - component: {fileID: 1770922340708372754}
   - component: {fileID: 1770922340708372755}
   - component: {fileID: 1770922340708372752}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2073,7 +2073,7 @@ GameObject:
   - component: {fileID: 1770922340721401535}
   - component: {fileID: 1770922340721401532}
   - component: {fileID: 1770922340721401533}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2167,7 +2167,7 @@ GameObject:
   - component: {fileID: 1770922340743171540}
   - component: {fileID: 1770922340743171541}
   - component: {fileID: 1770922340743171538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2261,7 +2261,7 @@ GameObject:
   - component: {fileID: 1770922340764557231}
   - component: {fileID: 1770922340764557228}
   - component: {fileID: 1770922340764557229}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plane (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2448,12 +2448,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3871332215769248583}
   - component: {fileID: 8509111300584778213}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3871332215769248583
 Transform:
@@ -2632,12 +2632,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4907757491317559996}
   - component: {fileID: 6892804170679036672}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4907757491317559996
 Transform:
@@ -2724,12 +2724,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5208965825132276595}
   - component: {fileID: 137136667656361517}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5208965825132276595
 Transform:
@@ -2852,12 +2852,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8306630637299553913}
   - component: {fileID: 3114018927865173515}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8306630637299553913
 Transform:
@@ -3101,11 +3101,12 @@ GameObject:
   - component: {fileID: 4128699105725629603}
   - component: {fileID: 555803484982085630}
   - component: {fileID: 612116446154475598}
+  - component: {fileID: 4739578572454574487}
   m_Layer: 0
   m_Name: house.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4128699105725629603
@@ -3169,6 +3170,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4739578572454574487
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077871528849574330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5909435794388913152, guid: f0d5ea3b032aef34fa8f69588fa6255a, type: 3}
 --- !u!1 &8196221818169899178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,12 +3194,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3601923961242606617}
   - component: {fileID: 5642470671246717861}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3601923961242606617
 Transform:
@@ -3271,12 +3286,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2866798134128874417}
   - component: {fileID: 1095073232688987492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2866798134128874417
 Transform:
@@ -3442,12 +3457,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2502196175214547716}
   - component: {fileID: 7811715909384756617}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2502196175214547716
 Transform:

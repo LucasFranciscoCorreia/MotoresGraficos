@@ -27,6 +27,7 @@ public class ItemPickup : MonoBehaviour
                 chat.gameObject.SetActive(false);
                 Inventory.instance.Add(item);
                 Destroy(this.gameObject);
+
             }
             yield return null;
         }

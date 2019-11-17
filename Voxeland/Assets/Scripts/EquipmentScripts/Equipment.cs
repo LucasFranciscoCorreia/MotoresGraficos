@@ -17,6 +17,8 @@ public class Equipment : Item
 
     public GameObject model;
 
+    AnimationController animator;
+
     public override void Use()
     {
         base.Use();
@@ -30,9 +32,13 @@ public class Equipment : Item
 
     public void Unequip()
     {
+        if (animator == null)
+            animator = FindObjectOfType<AnimationController>();
+
         if (slot == EquipmentSlot.rightHand)
             FindObjectOfType<RightHand>().Unequip();
 
+        
         EquipmentManager.instance.Unequip(this);
     }
 }

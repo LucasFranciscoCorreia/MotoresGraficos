@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000002, guid: 5ad991571b598ea40b9f6ad91d4d9077,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1139,6 +1139,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1489859707}
     m_Modifications:
+    - target: {fileID: 4020581529434957575, guid: aa03d2f2bb7790141a3165aa94e21847,
+        type: 3}
+      propertyPath: m_Name
+      value: Agua
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020581529434957575, guid: aa03d2f2bb7790141a3165aa94e21847,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4020581529434957691, guid: aa03d2f2bb7790141a3165aa94e21847,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1194,16 +1204,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4020581529434957575, guid: aa03d2f2bb7790141a3165aa94e21847,
-        type: 3}
-      propertyPath: m_Name
-      value: Agua
-      objectReference: {fileID: 0}
-    - target: {fileID: 4020581529434957575, guid: aa03d2f2bb7790141a3165aa94e21847,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa03d2f2bb7790141a3165aa94e21847, type: 3}
 --- !u!1001 &4235287599928619601
@@ -1218,6 +1218,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
+        type: 3}
+      propertyPath: pauseObject
+      value: 
+      objectReference: {fileID: 259812524}
+    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
+        type: 3}
+      propertyPath: cursor
+      value: 
+      objectReference: {fileID: 853738144}
+    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
+        type: 3}
+      propertyPath: inventoryMenu
+      value: 
+      objectReference: {fileID: 1036555796}
+    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
+        type: 3}
+      propertyPath: equipmentMenu
+      value: 
+      objectReference: {fileID: 1252784363}
     - target: {fileID: 4235287598180956306, guid: 65167218a0c01d3468871991fc7d1e28,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1273,26 +1293,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
-        type: 3}
-      propertyPath: pauseObject
-      value: 
-      objectReference: {fileID: 259812524}
-    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
-        type: 3}
-      propertyPath: cursor
-      value: 
-      objectReference: {fileID: 853738144}
-    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
-        type: 3}
-      propertyPath: inventoryMenu
-      value: 
-      objectReference: {fileID: 1036555796}
-    - target: {fileID: 4235287598180956307, guid: 65167218a0c01d3468871991fc7d1e28,
-        type: 3}
-      propertyPath: equipmentMenu
-      value: 
-      objectReference: {fileID: 1252784363}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65167218a0c01d3468871991fc7d1e28, type: 3}
 --- !u!1001 &6313728460806061779
