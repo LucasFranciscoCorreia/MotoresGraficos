@@ -14,6 +14,6 @@ public class WarpToVillageQuest : Quest
 
     public override void Finish()
     {
-        SceneManager.LoadScene(village);
+        FindObjectOfType<LevelChanger>().FadeToLevel("Village");
     }
 }

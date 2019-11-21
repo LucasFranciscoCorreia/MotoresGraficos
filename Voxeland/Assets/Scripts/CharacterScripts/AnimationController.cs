@@ -44,4 +44,10 @@ public class AnimationController : MonoBehaviour
     {
         this.weapon = weapon;
     }
+
+    public void GameOver()
+    {
+        FindObjectOfType<CursorScript>().ShowCursor();
+        FindObjectOfType<LevelChanger>().FadeToLevel("GameOver");
+    }
 }

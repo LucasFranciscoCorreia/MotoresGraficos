@@ -75,3 +75,11 @@ The following packages were updated:
   com.unity.textmeshpro from version 1.4.1 to 2.0.1
 The following packages were removed:
   com.unity.package-manager-ui@2.0.8
+
+=== Wed Nov 20 22:59:26 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.timeline from version 1.2.4 to 1.2.6

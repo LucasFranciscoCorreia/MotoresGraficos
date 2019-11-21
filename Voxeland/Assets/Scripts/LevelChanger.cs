@@ -13,8 +13,13 @@ public class LevelChanger : MonoBehaviour
         this.level = level;
         fade.SetTrigger("Fade");
     }
+
     public void OnFadeComplete()
     {
         SceneManager.LoadScene(level);
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

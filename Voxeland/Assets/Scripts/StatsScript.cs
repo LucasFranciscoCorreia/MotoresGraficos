@@ -42,6 +42,10 @@ public class StatsScript : MonoBehaviour
         {
             GetComponent<EnemyScript>().isDead = true;
             GetComponent<EnemyScript>().Kill();
+        }else if (gameObject.CompareTag("Player"))
+        {
+            GetComponent<CharacterScript>().isDead = true;
+            GetComponent<CharacterScript>().Die();
         }
 
     }

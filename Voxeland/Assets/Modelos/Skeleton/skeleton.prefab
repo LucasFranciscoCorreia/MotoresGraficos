@@ -1302,6 +1302,7 @@ GameObject:
   - component: {fileID: 1282368220}
   - component: {fileID: 1577788890378962353}
   - component: {fileID: 1282368218}
+  - component: {fileID: 317464864}
   m_Layer: 0
   m_Name: skeleton
   m_TagString: Enemy
@@ -1366,7 +1367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fde17ba9b2c534d96c7d9864a7ff6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 10
+  isDead: 0
 --- !u!195 &1282368220
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1418,6 +1419,19 @@ MonoBehaviour:
   maxHealth: 10
   damage:
     baseValue: 1
+--- !u!135 &317464864
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895186276686047440}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 25
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!1 &4242729001462278099
 GameObject:
   m_ObjectHideFlags: 0
