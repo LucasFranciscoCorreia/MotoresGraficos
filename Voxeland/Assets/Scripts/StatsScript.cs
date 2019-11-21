@@ -8,6 +8,7 @@ public class StatsScript : MonoBehaviour
     public int currentHealth { get; private set; }
     public Stat damage;
     HPBar hp;
+    EnemyHPBar enemyhp;
 
     private void Awake()
     {
@@ -16,6 +17,10 @@ public class StatsScript : MonoBehaviour
         {
             hp = FindObjectOfType<HPBar>();
             hp.UpdateValues(currentHealth, maxHealth);
+        }else
+        {
+            enemyhp = GetComponentInChildren<EnemyHPBar>();
+            enemyhp.UpdateValues(currentHealth, maxHealth);            
         }
     }
 
@@ -32,6 +37,11 @@ public class StatsScript : MonoBehaviour
         if (gameObject.CompareTag("Player"))
         {
             hp.UpdateValues(currentHealth, maxHealth);
+        }
+        else
+        {
+            enemyhp.UpdateValues(currentHealth, maxHealth);
+            GetComponent<EnemyScript>().TrigDamage();
         }
 
     }

@@ -2,24 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class HPBar : MonoBehaviour
+public class EnemyHPBar : MonoBehaviour
 {
+
     public Image hpBar;
-    public Text value;
+
+    private void Update()
+    {
+        transform.LookAt(transform.position + Camera.main.transform.rotation * Vector3.back);
+    }
 
     public void UpdateValues(int hp, int maxHp)
     {
-     //   float aux = hp / (float)maxHp;
-        value.text = hp + "/" + maxHp;
-     //   hpBar.fillAmount = aux;
+        //hpBar.fillAmount = hp / (float)maxHp;
         StopCoroutine("LoadLife");
-        StartCoroutine(LoadLife(hp / (float)maxHp));
+        StartCoroutine(LoadLife(hp / (float) maxHp));
     }
 
     IEnumerator LoadLife(float life)
     {
-        while (hpBar.fillAmount > life)
+        while(hpBar.fillAmount > life)
         {
             hpBar.fillAmount -= Time.deltaTime;
             yield return null;

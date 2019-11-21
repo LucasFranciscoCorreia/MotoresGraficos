@@ -8,14 +8,15 @@ public class WeaponScript : MonoBehaviour
 
     List<StatsScript> enemies;
     StatsScript stats;
-
+    FloatingDamageController damagepopup;
     public BoxCollider col;
 
     private void Start()
     {
         stats = GetComponentInParent<StatsScript>();
         enemies = new List<StatsScript>();
-        col = GetComponent<BoxCollider>(); 
+        col = GetComponent<BoxCollider>();
+        damagepopup = FindObjectOfType<FloatingDamageController>();
     }
 
     public void StartCollider()
@@ -30,6 +31,7 @@ public class WeaponScript : MonoBehaviour
         {
             enemy.TakeDamage(stats.damage.getValue());
             enemies.Add(enemy);
+            damagepopup.CreateFloatingDamage($"{stats.damage.getValue()}", other.transform);
         }
     }
 

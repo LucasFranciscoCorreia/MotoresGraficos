@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class EnemyScript : MonoBehaviour
 {
     public bool isDead;
+    public GameObject hpbar;
     Transform target;
     NavMeshAgent agent;
     Animator anim;
@@ -49,6 +51,7 @@ public class EnemyScript : MonoBehaviour
         if(other.gameObject.GetComponent<CharacterScript>() != null)
         {
             target = other.gameObject.GetComponent<Transform>();
+            hpbar.SetActive(true);
         }
     }
 
@@ -57,10 +60,16 @@ public class EnemyScript : MonoBehaviour
         if (other.gameObject.GetComponent<CharacterScript>() != null && Vector3.Distance(transform.position, other.gameObject.transform.position) > radius * transform.lossyScale.y)
         {
             target = null;
+            hpbar.SetActive(false);
         }
     }
     public void Kill()
     {
         anim.SetBool("isDead", isDead);
+    }
+
+    public void TrigDamage()
+    {
+        anim.SetTrigger("Damage");
     }
 }
